@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Margeen brand — azul primario del gradiente del logo */
+  --color-brand-50: #e8f4fd;
+  --color-brand-100: #cce8fa;
+  --color-brand-500: #0289d4;
+  --color-brand-600: #0269e4;
+  --color-brand-700: #0154b8;
+
+  /* Margeen accent — teal/cyan del gradiente y las "ee" */
+  --color-accent-400: #13c7bb;
+  --color-accent-500: #02acc2;
+  --color-accent-600: #0299ad;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
